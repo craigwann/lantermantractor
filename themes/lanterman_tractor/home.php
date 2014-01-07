@@ -1,5 +1,16 @@
 <?php defined('C5_EXECUTE') or die("Access Denied."); ?>
+
 <?php $this->inc('elements/header.php'); ?>
+<!-- Slider -->
+<script type="text/javascript">
+$(document).ready(function(){ 
+	$("#slider").easySlider({
+		prevText: '',
+		nextText: ''
+	});
+});
+</script>
+
   <div id="bannercontainer">
       <div id="banner">
         <div id="bannercontent">
@@ -13,10 +24,10 @@
                 $a->display($c);
                 ?>  
                 <div id="getstarted">
-                    <p><a href="get-started.php" title="Get Started">Get Started!</a></p>
+                    <p><a href="/get-started/" title="Get Started">Get Started!</a></p>
                 </div>    
             </div>
-            <a href="get-started.php" id="freeestimate" title="Get Started"><img src="<?php echo $this->getThemePath() ?>/images/freeestimate.png" width="176" height="51" alt="Get Started"/></a>
+            <a href="/get-started/" id="freeestimate" title="Get Started"><img src="<?php echo $this->getThemePath() ?>/images/freeestimate.png" width="176" height="51" alt="Get Started"/></a>
         </div>
     </div>
 </div>
@@ -24,7 +35,9 @@
   <div id="content">
     <!-- Quote Slider -->
     <div id="quotes">
-      <div id="slider"> <span class="slideright"></span><span class="slideleft"></span>
+      <div id="slider"> 
+          <span class="slideright"></span>
+          <span class="slideleft"></span>
           <ul>
             <li>
               <h3>Everyone was very <b>polite, honest, on time and fair</b> <br />

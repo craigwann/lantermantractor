@@ -23,6 +23,7 @@
       </div>
       <!-- Articles -->
       <div id="articles">
+          <h1><?php echo $c->getCollectionName(); ?></h1>
         <?php
             $a = new Area('Main Content');
             $a->display($c);

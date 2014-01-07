@@ -6,6 +6,8 @@
 <link href="<?php echo $this->getStyleSheet('style.css')?>" rel="stylesheet" type="text/css" media="screen"/>
 <!--[if lt IE 7.]><link href="<?php echo $this->getStyleSheet('ie.css')?>" rel="stylesheet" type="text/css" media="screen"/><![endif]-->
 
+<?php  Loader::element('header_required'); ?>
+
 <script src="<?php echo $this->getThemePath()?>/scripts/cufon-yui.js" type="text/javascript"></script>
 <script src="<?php echo $this->getThemePath()?>/scripts/Raleway_250.font.js" type="text/javascript"></script>
 <script src="<?php echo $this->getThemePath()?>/scripts/League_Gothic_400.font.js" type="text/javascript"></script>
@@ -13,9 +15,9 @@
              Cufon.replace('h1', { fontFamily: 'Raleway' });
       Cufon.replace('h2', { fontFamily: 'League Gothic' });
     </script>
+   
+<script src="<?php echo $this->getThemePath()?>/scripts/easySlider.packed.js" type="text/javascript"></script>
 
-<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"></script>   
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>     
 <!--[if lt IE 7.]>
 <script defer type="text/javascript" src="scripts/pngfix.js"></script>
 <![endif]-->
@@ -46,8 +48,6 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
-
-<?php  Loader::element('header_required'); ?>
 </head>
 
 <body onload="MM_preloadImages('<?php echo $this->getThemePath()?>/images/servicelink_1_over.png','<?php echo $this->getThemePath()?>/images/servicelink_2_over.png','<?php echo $this->getThemePath()?>/images/servicelink_3_over.png','<?php echo $this->getThemePath()?>/images/servicelink_4_over.png','<?php echo $this->getThemePath()?>/images/servicelink_5_over.png','<?php echo $this->getThemePath()?>/images/button_rev.png','<?php echo $this->getThemePath()?>/images/social_facebook_over.png','<?php echo $this->getThemePath()?>/images/social_twitter_over.png')">

@@ -439,6 +439,14 @@ top: 65px;
 #sidebar ul {
   margin-bottom: 20px;
 }
+#sidebar p, #sidebar h1, #sidebar h2, #sidebar h3, #sidebar h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#sidebar li p, #sidebar li h1, #sidebar li h2, #sidebar li h3, #sidebar li h4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 #articles {
 padding-left:20px;
 padding-top:15px;
@@ -456,20 +464,6 @@ float:left;
 	float: left;
 	width: 46%;
 	margin-right: 3%;
-}
-.contact label {
-	width: 100%;
-	margin-bottom:15px;
-	display: block;
-}
-.contact input {
-	width:60%;
-	margin-top: 3px;
-}
-.contact textarea {
-	width:100%;
-	height:200px;
-	margin-top: 3px;
 }
 .twtr-ft {
 	display:none;
@@ -509,4 +503,30 @@ a.social_twitter {
 a:hover.social_twitter {
 	background-image:url(images/social_twitter_over.png);
 	background-repeat:none;
+}
+
+td { 
+    vertical-align: top; 
+}
+
+label {
+    text-align: right;
+    margin-right: 10px;
+    font-size: 1.5em;
+    display: block;
+    font-family: Georgia, serif;
+}
+
+input {
+    border: dashed 1px gray;
+    font-size: 1.5em;
+    font-family: Georgia, serif;
+}
+textarea {
+    border: dashed 1px gray;
+}
+.formBlockSubmitButton {
+    background-color: #CD2301;
+    color: white;
+    font-family: Georgia, serif;
 }
