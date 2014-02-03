@@ -143,6 +143,7 @@ padding:6px 0px 8px 8px;
   position: relative;
   height: 31px;
 }
+
 #logo {
   height: 140px;
   width: 233px;
@@ -151,6 +152,7 @@ padding:6px 0px 8px 8px;
   top: -103px;
   text-indent:-9999px;
   background-image: url(images/logo.png);
+  background-repeat: no-repeat;
   z-index: 10;
 }
 #logolink {
@@ -530,3 +532,4 @@ textarea {
     color: white;
     font-family: Georgia, serif;
 }
+
