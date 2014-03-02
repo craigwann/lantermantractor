@@ -7,6 +7,7 @@
 <!--[if lt IE 7.]><link href="<?php echo $this->getStyleSheet('ie.css')?>" rel="stylesheet" type="text/css" media="screen"/><![endif]-->
 
 <?php  Loader::element('header_required'); ?>
+<meta name="google-site-verification" content="FZGBRdgR71Oh9NFwbZwa54C1K1n_Py2qFTcOocVB9oc" />
 
 <script src="<?php echo $this->getThemePath()?>/scripts/cufon-yui.js" type="text/javascript"></script>
 <script src="<?php echo $this->getThemePath()?>/scripts/Raleway_250.font.js" type="text/javascript"></script>
